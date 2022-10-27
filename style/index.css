@@ -1,0 +1,146 @@
+/* --------------------------------- GENERAL -------------------------------- */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html body{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+
+    line-height: 1.5;
+}
+
+input{
+    color: hsl(321, 100%, 78%);
+    border-color: hsl(321, 100%, 78%);
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+input:hover{
+    color: hsl(322, 100%, 66%);
+    border-color: hsl(322, 100%, 66%);
+}
+
+/* -------------------------------- HEADINGS -------------------------------- */
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color: hsl(192, 100%, 9%);
+}
+
+/* --------------------------------- HEADER --------------------------------- */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30%;
+}
+
+.logo{
+    margin: 50px;
+}
+
+header input{
+    display:flex;
+   
+    width: 120px;
+    height: 30px;
+    margin-right: 70px;
+    border-radius: 20px;
+    justify-content: center;
+    font-size: .8rem;
+    
+    
+} 
+
+/* ---------------------------------- BODY ---------------------------------- */
+
+/* -------------------------- CONTENEDOR PRINCIPAL -------------------------- */
+
+.contenedor{
+    display: flex;
+    height: 50%;
+    justify-content: center;
+    text-align: center;
+
+    margin-top: 200px;
+}
+
+/* ------------------------------ INTRODUCCION ------------------------------ */
+
+
+.texto-introduccion{
+    display: flex;
+    width: 40%;
+    margin: 20px 30%;
+}
+
+.contenedor-maestro input{
+    width: 320px;
+    height: 60px;
+    margin: 20px 0;
+
+    
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 30px;
+}
+
+.contenedor-maestro input:hover{
+    color: black;
+    background-color: hsl(321, 100%, 78%);
+    border-color: hsl(321, 100%, 78%);
+}
+
+#img-introduccion{
+    display: block;
+    margin: 100px auto;
+}
+
+.final-introduccion{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 350px;
+}
+
+.final-introduccion h1{
+    font-size: 5rem;
+}
+
+#correcion-p-introduccion{
+    position: relative;
+    right: 113.5px;
+}
+
+#correcion-img-introduccion{
+    position: relative;
+    right: 198px;
+}
+
+.final-introduccion p{
+    color: grey;
+}
+
+/* ------------------------------ GROW TOGETHER ----------------------------- */
+
+.grow-together{
+    display: flex;
+    background-color: black;
+    height: 60px;
+}
