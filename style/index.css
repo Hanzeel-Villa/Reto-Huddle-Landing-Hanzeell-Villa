@@ -1,16 +1,9 @@
 /* --------------------------------- GENERAL -------------------------------- */
 
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
-
-html body{
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-}
-
 
 p{
     font-family: 'Open Sans', sans-serif;
@@ -18,6 +11,19 @@ p{
     font-size: 1.2rem;
 
     line-height: 1.5;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color: hsl(192, 100%, 9%);
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4rem;
+    color: hsl(192, 100%, 9%);
+    margin-bottom: 20px;
 }
 
 input{
@@ -34,113 +40,170 @@ input:hover{
     border-color: hsl(322, 100%, 66%);
 }
 
-/* -------------------------------- HEADINGS -------------------------------- */
-
-h1{
-    font-family: 'Poppins', sans-serif;
-    font-size: 3rem;
-    color: hsl(192, 100%, 9%);
-}
-
 /* --------------------------------- HEADER --------------------------------- */
 
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 30%;
-}
-
-.logo{
+#logo{
     margin: 50px;
 }
 
-header input{
-    display:flex;
-   
+#input{
     width: 120px;
-    height: 30px;
+    height: 35px;
     margin-right: 70px;
     border-radius: 20px;
     justify-content: center;
     font-size: .8rem;
-    
-    
-} 
 
-/* ---------------------------------- BODY ---------------------------------- */
-
-/* -------------------------- CONTENEDOR PRINCIPAL -------------------------- */
-
-.contenedor{
-    display: flex;
-    height: 50%;
-    justify-content: center;
-    text-align: center;
-
-    margin-top: 200px;
+    position: absolute;
+    top: 50px;
+    right: 70px;
 }
 
 /* ------------------------------ INTRODUCCION ------------------------------ */
 
-
-.texto-introduccion{
-    display: flex;
-    width: 40%;
-    margin: 20px 30%;
+.introduccion{
+    margin-top: 200px;
+    text-align: center;
 }
 
-.contenedor-maestro input{
-    width: 320px;
-    height: 60px;
+.texto-introduccion{
+    width: 600px;
+    margin: 20px auto;
+}
+
+.input-bonito{
+    width: 400px;
+    height: 80px;
     margin: 20px 0;
 
     
     color: white;
     background-color: hsl(322, 100%, 66%);
-    border-radius: 30px;
+    border-radius: 50px;
 }
 
-.contenedor-maestro input:hover{
+.input-bonito:hover{
     color: black;
     background-color: hsl(321, 100%, 78%);
     border-color: hsl(321, 100%, 78%);
 }
 
-#img-introduccion{
+#img-mockup{
     display: block;
     margin: 100px auto;
 }
 
-.final-introduccion{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    padding: 0 350px;
-}
-
-.final-introduccion h1{
+.aumento-h{
     font-size: 5rem;
 }
 
-#correcion-p-introduccion{
-    position: relative;
-    right: 113.5px;
-}
-
-#correcion-img-introduccion{
-    position: relative;
-    right: 198px;
-}
-
-.final-introduccion p{
+.introduccion p{
     color: grey;
+}
+
+.comunidades{
+    text-align: justify;
+    display: inline-block;
+    position: relative;
+    right: 200px;
+}
+
+.mensajes{
+    text-align: justify;
+    display: inline-block;
+    position: relative;
+    left: 150px;
+    margin-bottom: 200px;
+}
+
+.bg-section-top-bot{
+    display: block;
+    width: 100%;
 }
 
 /* ------------------------------ GROW TOGETHER ----------------------------- */
 
 .grow-together{
-    display: flex;
-    background-color: black;
-    height: 60px;
+    background-color: hsl(207, 100%, 98%);   
+}
+
+.grow-texto{
+    position: relative;
+    left: 200px;
+    bottom: 150px;
+    display: inline-block;
+    text-align: justify;
+    width: 620px;
+}
+
+#img-grow{
+    position: relative;
+    left: 300px;
+    display: inline-block;
+    width: 600px;
+}
+
+/* -------------------------- FLOWING CONVERSATIONS ------------------------- */
+
+.flowing-conversations{
+    margin: 200px;
+}
+
+.flowing-texto{
+    position: relative;
+    left: 900px;
+    bottom: 150px;
+    display: inline-block;
+    text-align: justify;
+    width: 620px;
+}
+
+#img-flow{
+    position: relative;
+    right: 450px;
+    display: inline-block;
+    width: 600px;
+}
+
+/* ------------------------------- YOUR USERS ------------------------------- */
+
+.your-users{
+    background-color: hsl(207, 100%, 98%); 
+}
+
+.users-texto{
+    position: relative;
+    left: 200px;
+    bottom: 150px;
+    display: inline-block;
+    text-align: justify;
+    width: 620px;
+}
+
+#img-users{
+    position: relative;
+    left: 300px;
+    display: inline-block;
+    width: 600px;
+}
+
+/* ------------------------------- CONCLUSION ------------------------------- */
+
+.conclusion{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.conclusion input{
+    margin-bottom: 200px;
+}
+
+.bg-footer-section{
+    width: 100%;
+}
+
+/* --------------------------------- FOTTER --------------------------------- */
+
+fotter{
+    background-color:  hsl(192, 100%, 9%);
 }
